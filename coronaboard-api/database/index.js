@@ -21,4 +21,5 @@ const sequelize = new Sequelize(
 module.exports = {
     sequelize,
     GlobalStat: require('./global-stat.model')(sequelize),
+    KeyValue: require('./key-value.model')(sequelize),
 }
